@@ -1,0 +1,6 @@
+<div >
+
+      <li *ngFor="let user of users" [class.selected] = "user.selected" (click) = "onClick(user)">
+        {{user.name}}
+        </li>
+</div>
